@@ -1,0 +1,66 @@
+﻿@import url("components.css");
+
+.home {
+    display: grid;display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+
+    justify-content: center;
+    align-content: center;
+
+    height: 100vh;
+
+    /* area names must match the grid-area values set on child elements */
+    grid-template-areas: 
+        ". up ."
+        "left center right"
+        ". down .";
+ }
+
+.up {
+    grid-area: up;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.left {
+    grid-area: left;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.right {
+    grid-area: right;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.down {
+    grid-area: down;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.center {
+    grid-area: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+span {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px
+}
+
+#my_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

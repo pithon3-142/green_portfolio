@@ -1,0 +1,102 @@
+﻿:root {
+    /*background*/
+    --bg-primary: #0b0f17;
+    --bg-secondary: #272829;
+    /*glass background*/
+    --bg-glass: rgba(255, 255, 255, 0.1);
+    --border-glass: rgba(255, 255, 255, 0.5);
+    /*glow colors*/
+    --glow-primary: #5000a1;
+    --glow-secondary: #d10000;
+    --glow-tertiary: #09d900;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1)
+    }
+
+    25% {
+        transform: scale(1.5)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    75% {
+        transform: scale(2)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0px, 0px) 
+    }
+
+    25% {
+        transform: translate(500px, 500px)
+    }
+
+    50% {
+        transform: translate(1000px, 900px)
+    }
+
+    75% {
+        transform: translate(500px, 400px)
+    }
+
+    100% {
+        transform: translate(0px, 0px)
+    }
+}
+
+.glass {
+    background: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(30px)
+}
+
+.glow {
+    border-radius: 75%;
+    width: 50%;
+    height: 50%;
+    opacity: .25;
+    pointer-events: none;
+    filter: blur(150px);
+    z-index: -1
+}
+
+.orb {
+    animation: heartbeat 10s infinite;
+}
+
+.glow-purple {
+    background: repeating-linear-gradient(45deg, var(--glow-primary), var(--glow-secondary), var(--glow-tertiary));
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.glow-red {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    background: red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.interactive {
+    transition: all 0.3s ease;
+}
