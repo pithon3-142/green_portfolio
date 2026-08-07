@@ -4,39 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing</title>
+    <title>Home</title>
     <link rel="icon" href="../assets/icons/favicon.jpg">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/layout.css">
 </head>
 
 <body>
-
     <div class="home">
         <!-- the navigation -->
-        <div class="up nav">SKILLS</div>
-        <div class="left nav">PROFILE</div>
-        <div class="right nav">PORTFOLIO</div>
-        <div class="down nav">CONTACT</div>
+        <div class="up nav" data-page="skills">SKILLS</div>
+        <div class="left nav" data-page="profile">PROFILE</div>
+        <div class="right nav" data-page="portfolio">PORTFOLIO</div>
+        <div class="down nav" data-page="contact">CONTACT</div>
 
         <!-- Home page content-->
         <div class="home-center center glass">
             <h1>Hi There!</h1>
             <p>Are you a recruiter / employer? Perharps a client / collaborator? Or rather my peer...</p>
             <div id="my_name">
-                <p>I am</p><span>Peniel Ndlela</span><p>a.k.a</p><span>pi</span>
+                <p>I am</p><span>Peniel Ndlela</span><p>a.k.a</p><img src="../assets/icons/favicon.jpg">
             </div>
-            <p>Welcome to my Green Pifolio</p>
-            <b>Xplore</b>
+            <p>Welcome to my <b>Green</b> Pifolio</p>
+            <em>! xplore !</em>
         </div>
 
         <!-- glow elements -->
         <div class="glow glow-red orb"></div>
         <div class="glow glow-purple orb"></div>
-
     </div>
-
-    <script src="../js/animations.js"></script>
 </body>
 </html>

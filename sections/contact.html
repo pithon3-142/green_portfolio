@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="icon" href="../assets/icons/favicon.jpg">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/components.css">
 </head>
 
 <body>
+    <div class="glow glow-green orb"></div>
+    <div id="contact" class="container glass"> 
+
+        <h1>CONTACT ME</h1>
+        <form id="contact_form" class="">
+            <input class="" type="text" id="fn" name="first_name" placeholder="Enter first name" required>
+            <input class="" type="text" id="ln" name="last_name" placeholder="Enter last name" required>
+            <input class="" type="email" id="email" name="email" placeholder="example@gmail.com" required autocomplete="email">
+            <input class="" type="tel" id="phone" name="phone" placeholder="Enter phone number">
+            <textarea class="" type="text" id="query" name="query" placeholder="What is your message?" required></textarea>
+            <button class="" type="submit">Submit Form</button>
+        </form> 
+    </div>
 
 </body>
 </html>
