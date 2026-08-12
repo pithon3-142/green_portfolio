@@ -1,0 +1,84 @@
+@import url('components.css');
+
+.profile-container {
+    position: relative;
+     padding: 50px;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-bottom: 50px;
+}
+
+.me {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.me p {
+    margin-bottom: 30px;
+}
+
+#profile img {
+    width: 400px;
+    height: auto;
+    border-radius: 80%;
+    background: green;
+    box-shadow: 0 0 50px 10px white;
+}
+
+img:hover {
+    transform: scale(1.2);
+    border-radius: 25%;
+    transition: all 0.5s ease-in;
+}
+
+#salute {
+    display:flex;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-shadow: 0 0 50px white;
+    font-size: 5rem;
+}
+
+#profile div {
+    margin-bottom: 70px;
+}
+
+.about-me {
+    padding: 20px;
+    width: 60%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.edu-card {
+    display: column;
+    align-items: center;
+    padding: 20px;
+    border-color:rgba(139,92,246,.5);
+    box-shadow: 0 0 30px rgba(139,92,246,.2);
+
+}
+
+.edu-card:hover{
+    transform:translateY(-6px);
+    border-color:rgba(95, 34, 238, 0.5);
+    box-shadow: 0 0 30px rgba(139,92,246,.2);
+}
+
+.edu-card h2{
+    font-size:1.5rem;
+    margin-bottom:.25rem;
+}
+
+.edu-card h3{
+    color:#9ca3af;
+    font-weight:400;
+    margin-bottom:1rem;
+}

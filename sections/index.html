@@ -3,21 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas</title>
+    <title>Green Portfolio</title>
     <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/components.css">
 </head>
 <body>
-     <div id="canvas">
-        <section id="skills" class="viewport"></section>
-        <section id="profile" class="viewport"></section>
-        <section id="home" class="viewport"></section>
-        <section id="portfolio" class="viewport"></section>
-        <section id="contact" class="viewport"></section>
-    </div>
+        <!-- 
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../js/canvas.js"></script>
+        <script src="../js/navigation.js"></script>
+        <script src="../js/animations.js"></script> 
+        -->
+    <div id="canvas">   
+        <section id="home" class="viewport">
+        <div class="home-container">
+            <!-- the navigation -->
+            <div class="up nav" data-page="skills">SKILLS</div>
+            <div class="left nav" data-page="profile">PROFILE</div>
+            <div class="right nav" data-page="portfolio">PORTFOLIO</div>
+            <div class="down nav" data-page="contact">CONTACT</div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="../js/canvas.js"></script>
+            <!-- Home page content-->
+            <div class="home-center center glass">
+                <h1>Hi There!</h1>
+                <p>Are you a recruiter / employer? Perharps a client / collaborator? Or rather my peer...</p>
+                <div id="my_name">
+                    <p>I am</p><span>Peniel Ndlela</span><p>a.k.a</p><img src="../assets/icons/favicon.jpg">
+                </div>
+                <p>Welcome to my <b>Green</b> Pifolio</p>
+                <em>! xplore !</em>
+            </div>
+
+            <!-- glow elements -->
+            <div class="glow glow-red orb"></div>
+            <div class="glow glow-purple orb"></div>
+        </div>
+        </section>
+
+        <!-- PROFILE PAGE -->
+        <section id="profile" class="viewport">
+            <div class="profile-container center">
+                <h1>Profile</h1>
+                <div class="me">
+                    <div id="salute"><p>Hello ... Again !</p><p>Yeah, I know !</p><p>Just get it over with already</p></div>
+                    <div><img src="../assets/images/me.jpg"></div>
+                </div>
+                <div class="about-me glass">I am software developer student. Throughout my academic journey, I have established a background in agile and scrum development methodologies. 
+                    It is very important for you to take note that I am quite skilled in providing project, design, and programming assistance and also innovative, 
+                    with satisfactory experience in programming languages such as Java, Python, and Web Markup Languages (HTML and CSS, well... you can add TailwindCSS to that list, 
+                    simply because this is what this site is majorly styled with).
+                </div>
+
+                <div style="margin-top:70px">
+                    <iframe class="glass"
+                        width="900" height="600" 
+                        src="https://www.youtube.com/embed/JC2Mglh_Hsk" 
+                        title="Green Enterprise Solutions 2021 Induction" frameborder="0" 
+                        allow="autoplay; encrypted-media; picture-in-picture;" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                        
+                <div class="education">
+                    <div class="edu-card glass">
+                        <h2>Bachelor of Computer Science</h2>
+                        <h3>(Software Development)</h3>
+
+                        <p class="institution">Namibia University of Science and Technology</p>
+
+                        <span class="duration">2023 – Present </span>
+
+                        <p class="description">
+                            Currently pursuing a Bachelor of Computer Science with a focus on
+                            software development, web application development, and modern
+                            software engineering practices.
+                        </p>
+                        </div>
+
+                        <div class="edu-card glass">
+                            <h2>High School Diploma</h2>
+
+                            <p class="institution">Caprivi Senior Secondary School</p>
+
+                            <span class="duration">
+                                Graduated 2021
+                            </span>
+
+                            <p class="description">
+                                Awarded the Namibia Senior Secondary Advanced Subsidiary Certificate
+                                (NSSCAS), Grade 12.
+                            </p>
+                        </div>
+                </div>
+                <div class="acchievements"></div>
+            </div>
+        </section>
+
+        <!-- CONTACT ME PAGE -->
+        <section id="contact" class="viewport">
+            <div class="contact-container glass"> 
+
+                <h1>CONTACT ME</h1>
+                <form id="contact_form" class="">
+                    <input class="" type="text" id="fn" name="first_name" placeholder="Enter first name" required>
+                    <input class="" type="text" id="ln" name="last_name" placeholder="Enter last name" required>
+                    <input class="" type="email" id="email" name="email" placeholder="example@gmail.com" required autocomplete="email">
+                    <input class="" type="tel" id="phone" name="phone" placeholder="Enter phone number">
+                    <textarea class="" type="text" id="query" name="query" placeholder="What is your message?" required></textarea>
+                    <button class="" type="submit">Submit Form</button>
+                </form> 
+            </div>
+        </section>
+    </div> 
+
     <script src="../js/navigation.js"></script>
     <script src="../js/animations.js"></script>
 </body>

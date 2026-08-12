@@ -1,6 +1,6 @@
 @import url("components.css");
 
-.home {
+.home-container {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 20% 60% 20%;
@@ -25,7 +25,8 @@
     grid-area: up;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    text-shadow: 0 0 40px white;
 }
 
 .left {
@@ -55,6 +56,7 @@
     flex-direction: column;
     text-align: center;
     gap: 1.5rem;
+    border-radius: 50px;
 }
 
 span {
@@ -69,11 +71,12 @@ span {
     align-items: center;
 }
 
-.home-center {
+#home .home-center {
     border-radius: 90%;
+    box-shadow: 0 0 50px 50px rgba(131, 2, 2, 0.952);
 }
 
-h1 {
+#home h1 {
     font-family: 'Bell MT';
     font-size: 3rem;
     font-weight: bolder
