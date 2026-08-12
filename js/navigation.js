@@ -11,16 +11,16 @@ navItems.forEach((item) => {
                 canvas.style.transform = "translate(-100vw, -100vh)";
                 break;
             case "profile":
-                canvas.style.transform = "translate(100vw, 0vh)";
+                canvas.style.transform = "translate(0vw, -100vh)";
                 break;
             case "portfolio":
-                canvas.style.transform = "translate(-100vw, 0vh)";
+                canvas.style.transform = "translate(-200vw, -100vh)";
                 break;
             case "skills":
-                canvas.style.transform = "translate(0vw, 100vh)";
+                canvas.style.transform = "translate(-100vw, 0vh)";
                 break;
             case "contact":
-                canvas.style.transform = "translate(0vw, -100vh)";
+                canvas.style.transform = "translate(-100vw, -200vh)";
                 break;
         }
     });
