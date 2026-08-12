@@ -3,7 +3,7 @@
     --bg-primary: #0b0f17;
     --bg-secondary: #272829;
     /*glass background*/
-    --bg-glass: rgba(0, 0, 0, 0.6);
+    --bg-glass: rgba(0, 0, 0, 0.3);
     --border-glass: rgba(255, 255, 255, 0.8);
     /*glow colors*/
     --glow-primary: #5000a1;
@@ -68,24 +68,23 @@
     background: var(--bg-glass);
     border: 1px solid var(--border-glass);
     backdrop-filter: blur(70px);
-    -webkit-backdrop-filter: blur(30px)
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 20px;
 }
 
 .glow {
     border-radius: 75%;
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 30%;
     opacity: .3;
     pointer-events: none;
     filter: blur(150px);
-}
 
-.orb {
-    animation: heartbeat 10s infinite;
+    transition: transform 5s ease-in-out;
 }
 
 .glow-purple {
-    background: var(--glow-tertiary);
+    background: var(--glow-primary);
     position: absolute;
     top: 0px;
     left: 10px;
@@ -95,7 +94,7 @@
     position: absolute;
     bottom: 50px;
     right: 100px;
-    background: red;
+    background: var(--glow-secondary);
 }
 
 .interactive {

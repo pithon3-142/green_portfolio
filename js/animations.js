@@ -1,13 +1,14 @@
 // random orb movement
-const orbs = document.querySelector('.orb');
+const orbs = document.querySelectorAll('.orb');
 
 function orbMovement() {
-    const x = Math.random() * window.innerWidth;
-    const y = Math.random() * window.innerHeight;
-
     orbs.forEach(orbs => {
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * window.innerHeight;
         orbs.style.transform = `translate(${x}px, ${y}px)`;
     });
 }
 
 orbMovement();
+
+setInterval(orbMovement, 3000);

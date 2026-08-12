@@ -6,6 +6,10 @@
     overflow-y: auto;
 }
 
+.viewport::-webkit-scrollbar {
+    display: none;
+}
+
 #canvas {
     width: 300vw;
     height: 300vh;

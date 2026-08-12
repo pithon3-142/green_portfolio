@@ -10,8 +10,10 @@
 }
 
 .me {
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content:space-around;
+    align-items: center;
     margin-top: 80px;
     width: 100%;
 }
@@ -26,12 +28,12 @@
     border-radius: 80%;
     background: green;
     box-shadow: 0 0 50px 10px white;
+    transition: all 0.5s ease-in;
 }
 
-img:hover {
+#profile img:hover {
     transform: scale(1.2);
     border-radius: 25%;
-    transition: all 0.5s ease-in;
 }
 
 #salute {

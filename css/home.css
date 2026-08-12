@@ -1,9 +1,7 @@
-@import url("components.css");
-
 .home-container {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 50% 20%;
 
     justify-content: center;
     align-content: center;
@@ -72,12 +70,20 @@ span {
 }
 
 #home .home-center {
-    border-radius: 90%;
-    box-shadow: 0 0 50px 50px rgba(131, 2, 2, 0.952);
+    border-radius: 50px;
+    box-shadow: 0 0 50px 50px rgba(233, 230, 230, 0.952);
 }
 
 #home h1 {
     font-family: 'Bell MT';
     font-size: 3rem;
     font-weight: bolder
+}
+
+.home-center p {
+    font-size:x-large;
+}
+
+#home img {
+    mask-image: radial-gradient(ellipse, black 60%, transparent 70%);
 }
