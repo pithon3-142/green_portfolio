@@ -74,13 +74,13 @@
 
 .glow {
     border-radius: 75%;
-    width: 20%;
-    height: 30%;
+    width: 30%;
+    height: 50%;
     opacity: .3;
     pointer-events: none;
     filter: blur(150px);
 
-    transition: transform 5s ease-in-out;
+    transition: transform 2s ease-in-out;
 }
 
 .glow-purple {

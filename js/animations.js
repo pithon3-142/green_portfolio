@@ -2,7 +2,7 @@
 const orbs = document.querySelectorAll('.orb');
 
 function orbMovement() {
-    orbs.forEach(orbs => {
+    orbs.forEach(orb => {
         const x = Math.random() * window.innerWidth;
         const y = Math.random() * window.innerHeight;
         orbs.style.transform = `translate(${x}px, ${y}px)`;
@@ -11,4 +11,4 @@ function orbMovement() {
 
 orbMovement();
 
-setInterval(orbMovement, 3000);
+setInterval(orbMovement, 2000);

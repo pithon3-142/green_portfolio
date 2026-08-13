@@ -22,7 +22,7 @@
 
     transform: translate(-100vw, -100vh);
 
-    transition: transform 0.8s cubic-bezier(0.4, 0, 0.6, -0.2);
+    transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 0.9);
 }
 
 #skills {

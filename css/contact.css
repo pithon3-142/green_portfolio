@@ -1,9 +1,15 @@
 @import url(../css/components.css);
 
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
 .contact-container {
     align-items: center;
     justify-content: center;
-    max-width: 850px;
+    width: 50%;
+    max-width: 1000px;
     margin: auto;
     padding: 2.5rem;
     background: rgba(255, 255, 255, 0.05);
