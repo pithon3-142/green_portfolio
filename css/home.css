@@ -17,7 +17,7 @@
         ". up ."
         "left center right"
         ". down .";
- }
+}
 
 .up {
     grid-area: up;
@@ -73,8 +73,10 @@ span {
 
 #home .home-center {
     border-radius: 700px;
-    box-shadow: 0 0 50px 50px rgba(233, 230, 230, 0.952);
+    box-shadow: 0 0 50px 20px rgba(233, 230, 230, 0.952);
+    transition: all 1s ease-in-out;
 }
+
 
 #home h1 {
     font-family: 'Bell MT';
@@ -86,6 +88,10 @@ span {
 .home-center p {
     font-size:large;
     color: rgb(210, 171, 247);
+}
+
+#home .home-center:hover {
+    box-shadow: 0 0 100px  rgba(233, 230, 230, 1);
 }
 
 #home img {

@@ -49,6 +49,11 @@
     border-radius: 20px;
 }
 
+.glass:hover {
+    backdrop-filter: blur(100px);
+    background: rgba(0, 0, 0, 0.7);
+}
+
 .glow {
     border-radius: 75%;
     width: 30%;
@@ -90,6 +95,7 @@
     font-weight: bolder;
     font-size: 2rem;
     backdrop-filter: blur(20px);
+    transition: all 2s ease-in-out;
 }
 
 .nav:hover {
