@@ -18,23 +18,18 @@ const details = {
         contribution: 'Built the desktop interface, file-type category selection, directory picking, validation, and the file-moving workflow.',
         result: 'A quick, guided way to tidy text, image, audio, video, and archive files.'
     },
-    invoice: { title: 'Invoice Management System', 
+    invoice: { title: 'TK Invoice Generator',
         problem: 'Manual invoice records are difficult to organise, update, and present consistently.', 
         solution: 'A central workspace for clients, items, totals, and polished printable invoices.', 
         technologies: 'JavaScript, HTML, CSS, Local Storage', 
         contribution: 'Designed the interface and built the invoice creation and calculation workflow.', 
         result: 'A faster, clearer way to produce professional invoices.' },
-    attendance: { title: 'Attendance Logger', 
+    'excel-logger': { title: 'Green Excel Logger',
         problem: 'Attendance records were difficult to organise manually.', 
         solution: 'A Python application that processes attendance logs and generates organised Excel reports.', 
         technologies: 'Python, Pandas, OpenPyXL', 
         contribution: 'Built data processing, employee grouping, date handling, and Excel formatting.', 
         result: 'A repeatable reporting process with clean, readable output.' },
-    alumni: { title: 'Alumni API', problem: 'Alumni information needs a consistent, accessible structure.', 
-        solution: 'A REST-style service for creating, updating, and retrieving alumni profiles.', 
-        technologies: 'Python, REST API, JSON', 
-        contribution: 'Defined endpoints, validation, and the data flow for alumni records.', 
-        result: 'A flexible backend foundation ready for a web or mobile client.' }
 };
 
 const tableBody = document.getElementById('projectData');

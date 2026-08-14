@@ -85,7 +85,10 @@ h1 {
     margin-bottom:1rem;
 }
 
-#profile iframe { width: min(900px, 100%); max-width: 100%; aspect-ratio: 3 / 2; height: auto; }
+#profile iframe { 
+    width: min(100%, 100%); 
+    aspect-ratio: 3 / 2; 
+}
 
 @media (max-width: 700px) {
     .profile-container { padding: 70px 18px 32px; margin-bottom: 0; }

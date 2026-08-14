@@ -35,29 +35,6 @@
     }
 }
 
-@keyframes float {
-    0% {
-        transform: translate(0px, 0px) 
-    }
-
-    25% {
-        transform: translate(500px, 500px)
-    }
-
-    50% {
-        transform: translate(1000px, 900px)
-    }
-
-    75% {
-        transform: translate(500px, 400px)
-    }
-
-    100% {
-        transform: translate(0px, 0px)
-    }
-}
-
-
 .center {
     display: flex;
     justify-content: center;
@@ -76,25 +53,32 @@
     border-radius: 75%;
     width: 30%;
     height: 50%;
-    opacity: .3;
+    opacity: .2;
     pointer-events: none;
     filter: blur(150px);
 
-    transition: transform 2s ease-in-out;
+    transition: transform 5s ease-in-out;
 }
 
 .glow-purple {
     background: var(--glow-primary);
     position: absolute;
     top: 0px;
-    left: 10px;
+    left: 100px;
 }
 
 .glow-red {
     position: absolute;
-    bottom: 50px;
-    right: 100px;
+    top: 50px;
+    left: 1000px;
     background: var(--glow-secondary);
+}
+
+.glow-green {
+    position: absolute;
+    bottom: 1000px;
+    right: 700px;
+    background: var(--glow-tertiary);
 }
 
 .interactive {
