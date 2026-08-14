@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
         <!-- 
@@ -48,6 +49,7 @@
 
         <!-- PROFILE PAGE -->
         <section id="profile" class="viewport">
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">→</span><span>Home</span></button>
             <div class="profile-container center">
                 <h1>Profile</h1>
                 <div class="me">
@@ -108,16 +110,96 @@
 
         <!-- SKILLS PAGE -->
         <section id="skills" class="viewport">
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">↓</span><span>Home</span></button>
             <div></div>
         </section>
 
         <!-- PORTFOLIO PAGE -->
         <section id="portfolio" class="viewport">
-            <div></div>
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">←</span><span>Home</span></button>
+            <div class="portfolio-page">
+                <header class="portfolio-header">
+                    <span class="eyebrow">My Work</span>
+                    <h1>Portfolio</h1>
+                    <p>This page is a collection of practical applications I built to make everyday work clearer, faster, and easier to manage.</p>
+                </header>
+
+                <section class="featured-project glass" aria-labelledby="featured-title">
+                    <div class="featured-info">
+                        <span class="eyebrow">Featured project · 01</span>
+                        <h2 id="featured-title">Piler</h2>
+                        <p>A desktop file organiser that tidies selected file types into category folders with a simple, guided interface.</p>
+                        <p class="project-problem"><strong>The problem:</strong> Unsorted files quickly turn a desktop into a cluttered workspace. Piler lets a user select a source, category, extension, and destination—then organises matching files in one action.</p>
+                        <div class="tags" aria-label="Technologies used">
+                            <span>Python</span><span>PyQt5</span><span>os</span><span>shutil</span>
+                        </div>
+                        <div class="project-actions">
+                            <a class="project-btn project-btn-primary" href="#project-details">View demo</a>
+                            <a class="project-btn" href="https://github.com/pithon3-142/piler" target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </div>
+                    <div class="preview-window" aria-label="Piler desktop app preview">
+                        <div class="window-bar"><span></span><span></span><span></span><b>Pi-Filer · Ultimate File Organizer</b></div>
+                        <div class="piler-preview">
+                            <h3>piler</h3><p>Organize any type of your files. It's easy, quick and seamless.</p>
+                            <div class="piler-step"><span>1</span><b>Select Source</b><small>Desktop / Downloads</small></div>
+                            <div class="piler-selects"><span>Image</span><span>.png</span></div>
+                            <div class="piler-step"><span>2</span><b>Select Target</b><small>Documents / Organised</small></div>
+                            <div class="piler-organize">Organize files <b>→</b></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="projects" aria-labelledby="projects-title">
+                    <div class="section-heading"><div><span class="eyebrow">What I've built</span><h2 id="projects-title">Projects</h2></div><p>Click a project to explore the challenge, approach, and outcome.</p></div>
+                    <div class="project-grid">
+                        <button class="project-card glass active" type="button" data-project="piler"><span class="project-number">01</span><h3>Piler</h3><p>Tidy selected desktop files into organised category folders.</p><span class="card-link">View project <b>→</b></span></button>
+                        <button class="project-card glass" type="button" data-project="attendance"><span class="project-number">02</span><h3>Attendance Logger</h3><p>Turn raw attendance logs into organised Excel reports.</p><span class="card-link">View project <b>→</b></span></button>
+                        <button class="project-card glass" type="button" data-project="alumni"><span class="project-number">03</span><h3>Alumni API</h3><p>A structured API for managing alumni profiles and records.</p><span class="card-link">View project <b>→</b></span></button>
+                    </div>
+                </section>
+
+                <section class="data-section glass" aria-labelledby="data-title">
+                    <div class="data-header"><div><span class="eyebrow">Interactive technical demonstration</span><h2 id="data-title">Live project data</h2></div><span id="dataCount" class="data-count" aria-live="polite"></span></div>
+                    <div class="data-controls">
+                        <label class="search-field" for="projectSearch"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects" autocomplete="off"></label>
+                        <label class="filter-field" for="statusFilter">Status <select id="statusFilter"><option value="all">All</option><option value="Complete">Complete</option><option value="In progress">In progress</option></select></label>
+                    </div>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <button class="sort-button" type="button" data-sort="id">ID <span>↕</span></button>
+                                    </th>
+                                        <th><button class="sort-button" type="button" data-sort="project">Project <span>↕</span></button>
+                                        </th>
+                                        <th><button class="sort-button" type="button" data-sort="technology">Technology <span>↕</span></button>
+                                        </th>
+                                        <th><button class="sort-button" type="button" data-sort="status">Status <span>↕</span></button>
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="projectData">
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-footer"><p><span class="live-dot"></span>Loaded with fetch-style client-side data</p><div id="pagination" class="pagination" aria-label="Project data pages"></div></div>
+                </section>
+
+                <section id="project-details" class="project-details glass" aria-labelledby="details-title">
+                    <div><span class="eyebrow">Project details</span><h2 id="details-title">Piler</h2></div>
+                    <div id="detailContent" class="detail-grid"></div>
+                    <div class="project-actions"><a id="detailDemo" class="project-btn project-btn-primary" href="#portfolio">View demo</a><a id="detailSource" class="project-btn" href="https://github.com/pithon3-142/piler" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+                </section>
+            </div>
         </section>
 
         <!-- CONTACT ME PAGE -->
         <section id="contact" class="viewport">
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">↑</span><span>Home</span></button>
             <div class="contact-container glass"> 
 
                 <h1>CONTACT ME</h1>
@@ -133,7 +215,10 @@
         </section>
     </div> 
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/animations.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/home-buttons.js"></script>
 </body>
 </html>

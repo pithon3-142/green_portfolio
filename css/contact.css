@@ -88,6 +88,10 @@ h1 {
 }
 
 @media (max-width: 700px) {
+    #contact { display: block; padding: 74px 16px 24px; }
+    .contact-container { width: 100%; padding: 1.4rem; }
+    #contact_form { gap: 1rem; margin-top: 24px; padding: 0; }
+    #contact h1 { font-size: clamp(2.2rem, 11vw, 3.5rem); }
     #contact_form {
         grid-template-columns: 1fr;
     }
@@ -97,8 +101,4 @@ h1 {
         grid-column: auto;
     }
 
-    .contact-section {
-        padding: 1.5rem;
-        margin: 2rem 1rem;
-    }
 }

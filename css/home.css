@@ -95,3 +95,24 @@ span {
 b {
     color: green;
 }
+
+@media (max-width: 700px) {
+    .home-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "up"
+            "center"
+            "down";
+        padding: 20px 16px;
+    }
+
+    .left, .right { position: absolute; top: 50%; }
+    .left { left: 12px; }.right { right: 12px; }
+    .nav { font-size: clamp(1rem, 4vw, 1.4rem); }
+    #home .home-center { width: 100%; max-width: 420px; justify-self: center; border-radius: 34px; padding: 28px 18px; }
+    #home h1 { font-size: 2.35rem; }
+    #my_name { justify-content: center; flex-wrap: wrap; gap: 4px; }
+    #my_name span { margin: 0 5px; font-size: clamp(1.55rem, 7vw, 2.3rem); }
+    #my_name img { width: 30px; }
+}

@@ -1,0 +1,9 @@
+[
+  { "id": "01", "project": "Piler", "technology": "Python / PyQt5", "status": "Complete" },
+  { "id": "02", "project": "TK Invoice Generator", "technology": "JavaScript / HTML / CSS", "status": "Complete" },
+  { "id": "03", "project": "Green Excel Logger", "technology": "Python", "status": "Complete" },
+  { "id": "04", "project": "Alias Game", "technology": "Kotlin / HTML / CSS", "status": "Complete" },
+  { "id": "05", "project": "Green Portfolio", "technology": "HTML / CSS / JS", "status": "In progress" },
+  { "id": "06", "project": "Bi Linear Search Algorithm", "technology": "Java", "status": "Complete" },
+  { "id": "07", "project": "Quick Selection Sort Algorithm", "technology": "Java", "status": "Complete" }
+]
