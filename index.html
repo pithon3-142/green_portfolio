@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Portfolio</title>
+    <link rel="icon" href="assets/icons/favicon.jpg">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/skills.css">
 </head>
 <body>
         <!-- 
@@ -27,53 +29,52 @@
         <div class="glow glow-green orb"></div>
         
         <section id="home" class="viewport">
-        <div class="home-container">
-            <!-- the navigation -->
-            <div class="up nav" data-page="skills">SKILLS</div>
-            <div class="left nav" data-page="profile">PROFILE</div>
-            <div class="right nav" data-page="portfolio">PORTFOLIO</div>
-            <div class="down nav" data-page="contact">CONTACT</div>
+                <div class="home-container">
+                <!-- the navigation -->
+                <div class="up nav" data-page="skills">SKILLS</div>
+                <div class="left nav" data-page="profile">PROFILE</div>
+                <div class="right nav" data-page="portfolio">PORTFOLIO</div>
+                <div class="down nav" data-page="contact">CONTACT</div>
 
-            <!-- Home page content-->
-            <div class="home-center center glass">
-                <h1>Hi There!</h1>
-                <div id="my_name">
-                    <p>I am</p><span>Peniel Ndlela </span><p>a.k.a </p><img src="../assets/icons/favicon.jpg">
+                <!-- Home page content-->
+                <div class="home-center center glass">
+                    <h1>Hi There!</h1>
+                    <div id="my_name">
+                        <p>I am</p><span>Peniel Ndlela </span><p>a.k.a </p><img src="assets/icons/favicon.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/me2.png" alt="a picture of me">
+                    </div>
+                    <p>Welcome to my <b>Green</b> Pifolio</p>
                 </div>
-                <div>
-                    <img src="assets/images/me2.png" alt="a picture of me">
-                </div>
-                <p>Welcome to my <b>Green</b> Pifolio</p>
             </div>
-        </div>
         </section>
 
         <!-- PROFILE PAGE -->
         <section id="profile" class="viewport">
-            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">→</span><span>Home</span></button>
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>→<span>Home</span></button>
             <div class="profile-container center">
                 <h1>Profile</h1>
                 <div class="me">
                     <div id="salute"><p>Are you a recruiter / employer? Perharps a client / collaborator? Or rather my peer...</p></div>
                     <div><img src="assets/images/me.jpg"></div>
                 </div>
-                <div class="about-me glass">I am software developer student. Throughout my academic journey, I have established a background in agile and scrum development methodologies. 
-                    It is very important for you to take note that I am quite skilled in providing project, design, and programming assistance and also innovative, 
-                    with satisfactory experience in programming languages such as Java, Python, and Web Markup Languages (HTML and CSS, well... you can add TailwindCSS to that list, 
-                    simply because this is what this site is majorly styled with).
+                <div class="about-me glass">
+                    Software developer student with a strong foundation in Agile and Scrum methodologies, experienced in providing project, design, and programming assistance.
+                    Skilled in Java, Python, HTML, CSS, and Tailwind CSS, with a creative and innovative approach to software development.
                 </div>
 
                 <div style="margin-top:70px">
                     <iframe class="glass"
-                        width="900" height="600" 
-                        src="https://www.youtube.com/embed/JC2Mglh_Hsk" 
-                        title="Green Enterprise Solutions 2021 Induction" frameborder="0" 
-                        allow="autoplay; encrypted-media; picture-in-picture;" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
+                            width="900" height="600"
+                            src="https://www.youtube.com/embed/JC2Mglh_Hsk"
+                            title="Green Enterprise Solutions 2021 Induction" frameborder="0"
+                            allow="autoplay; encrypted-media; picture-in-picture;"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
                     </iframe>
                 </div>
-                        
+
                 <div class="education">
                     <div class="edu-card glass">
                         <h2>Bachelor of Computer Science</h2>
@@ -88,22 +89,22 @@
                             software development, web application development, and modern
                             software engineering practices.
                         </p>
-                        </div>
+                    </div>
 
-                        <div class="edu-card glass">
-                            <h2>High School Diploma</h2>
+                    <div class="edu-card glass">
+                        <h2>High School Diploma</h2>
 
-                            <p class="institution">Caprivi Senior Secondary School</p>
+                        <p class="institution">Caprivi Senior Secondary School</p>
 
-                            <span class="duration">
-                                Graduated 2021
-                            </span>
+                        <span class="duration">
+                            Graduated 2021
+                        </span>
 
-                            <p class="description">
-                                Awarded the Namibia Senior Secondary Advanced Subsidiary Certificate
-                                (NSSCAS), Grade 12.
-                            </p>
-                        </div>
+                        <p class="description">
+                            Awarded the Namibia Senior Secondary Advanced Subsidiary Certificate
+                            (NSSCAS), Grade 12.
+                        </p>
+                    </div>
                 </div>
                 <div class="acchievements"></div>
             </div>
@@ -111,13 +112,17 @@
 
         <!-- SKILLS PAGE -->
         <section id="skills" class="viewport">
-            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">↓</span><span>Home</span></button>
-            <div></div>
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>↓<span>Home</span></button>
+            <div class="skills">
+                <p>!!! WOOOOOOOOOOOPS !!!</p>
+                <p>This page is still under construction, please check back later</p>
+                <p>THANK YOU</p>
+            </div>
         </section>
 
         <!-- PORTFOLIO PAGE -->
         <section id="portfolio" class="viewport">
-            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">←</span><span>Home</span></button>
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>←<span>Home</span></button>
             <div class="portfolio-page">
                 <header class="portfolio-header">
                     <span class="eyebrow">My Work</span>
@@ -173,20 +178,22 @@
                                     <th>
                                         <button class="sort-button" type="button" data-sort="id">ID <span>↕</span></button>
                                     </th>
-                                        <th><button class="sort-button" type="button" data-sort="project">Project <span>↕</span></button>
-                                        </th>
-                                        <th><button class="sort-button" type="button" data-sort="technology">Technology <span>↕</span></button>
-                                        </th>
-                                        <th><button class="sort-button" type="button" data-sort="status">Status <span>↕</span></button>
+                                    <th>
+                                        <button class="sort-button" type="button" data-sort="project">Project <span>↕</span></button>
+                                    </th>
+                                    <th>
+                                        <button class="sort-button" type="button" data-sort="technology">Technology <span>↕</span></button>
+                                    </th>
+                                    <th>
+                                        <button class="sort-button" type="button" data-sort="status">Status <span>↕</span></button>
                                     </th>
                                 </tr>
                             </thead>
 
                             <tbody id="projectData">
-
                             </tbody>
                         </table>
-                    </div> 
+                    </div>
                     <div class="table-footer"><p><span class="live-dot"></span>Loaded with fetch-style client-side data</p><div id="pagination" class="pagination" aria-label="Project data pages"></div></div>
                 </section>
 
@@ -200,8 +207,9 @@
 
         <!-- CONTACT ME PAGE -->
         <section id="contact" class="viewport">
-            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true">↑</span><span>Home</span></button>
-            <div class="contact-container glass"> 
+            <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>↑<span>Home</span></button>
+
+            <div class="contact-container glass">
 
                 <h1>CONTACT ME</h1>
                 <form id="contact_form" class="">
@@ -211,7 +219,7 @@
                     <input class="" type="tel" id="phone" name="phone" placeholder="Enter phone number">
                     <textarea class="" type="text" id="query" name="query" placeholder="What is your message?" required></textarea>
                     <button class="" type="submit">Submit Form</button>
-                </form> 
+                </form>
             </div>
         </section>
     </div> 

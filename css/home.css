@@ -26,6 +26,22 @@
     align-items: center;
 }
 
+#left {
+    transform: translateX(50vw) translateY(30vh)
+}
+
+#right {
+    transform: translateY(90%) translateX(1950px)
+}
+
+#up {
+    transform: translateX(45%) translateY(-100px)
+}
+
+#down {
+    transform: translateX(45%) translateY(-100px)
+}
+
 .left {
     grid-area: left;
     display: flex;
@@ -62,7 +78,6 @@ span {
     margin: 15px;
     color: white;
     text-shadow: 0 0 5px rgb(237, 164, 255);
-    font-size: 500;
 }
 
 #my_name {
@@ -86,7 +101,7 @@ span {
 }
 
 .home-center p {
-    font-size:large;
+    font-size: xx-large;
     color: rgb(210, 171, 247);
 }
 
@@ -116,9 +131,18 @@ b {
     .left, .right { position: absolute; top: 50%; }
     .left { left: 12px; }.right { right: 12px; }
     .nav { font-size: clamp(1rem, 4vw, 1.4rem); }
-    #home .home-center { width: 100%; max-width: 420px; justify-self: center; border-radius: 34px; padding: 28px 18px; }
+    #home .home-center { 
+        width: 100%; 
+        max-width: 420px; 
+        justify-self: center; 
+        border-radius: 34px; 
+                         padding: 28px 18px; }
+
     #home h1 { font-size: 2.35rem; }
+
     #my_name { justify-content: center; flex-wrap: wrap; gap: 4px; }
-    #my_name span { margin: 0 5px; font-size: clamp(1.55rem, 7vw, 2.3rem); }
+    #my_name span { 
+        margin: 0 5px; 
+        font-size: clamp(1.55rem, 7vw, 2.3rem); }
     #my_name img { width: 30px; }
 }

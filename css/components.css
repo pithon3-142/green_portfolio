@@ -98,11 +98,12 @@
     transition: all 2s ease-in-out;
 }
 
-.nav:hover {
-    transform: scale(1.1);
-    transition: var(--transition);
-    text-shadow: 0 0 20px white
-}
+    .nav:hover {
+        transform: scale(1.1);
+        transition: var(--transition);
+        text-shadow: 0 0 20px white;
+        cursor: pointer;
+    }
 
 .home-fab {
     position: absolute;
@@ -110,7 +111,7 @@
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    padding: 9px 13px;
+    padding: 15px 20px;
     border: 1px solid rgba(255, 255, 255, .42);
     border-radius: 50px;
     background: rgba(11, 15, 23, .58);
@@ -123,7 +124,6 @@
 }
 
 .home-fab:hover {
-    transform: translateY(-2px);
     background: rgba(80, 0, 161, .48);
 }
 
@@ -141,12 +141,41 @@
     font-size: 1.05rem !important;
 }
 
-#profile .home-fab { top: 50%; right: 20px; }
-#portfolio .home-fab { top: 50%; left: 20px; }
-#skills .home-fab { bottom: 20px; left: 50%; transform: translateX(-50%); }
-#contact .home-fab { top: 20px; left: 50%; transform: translateX(-50%); }
-#skills .home-fab:hover { transform: translateX(-50%) translateY(-2px); }
-#contact .home-fab:hover { transform: translateX(-50%) translateY(-2px); }
+#skills .home-fab {
+    bottom: 30px;
+    left: 46%;
+}
+
+#profile .home-fab {
+    top: 47%;
+    right: 30px;
+}
+
+#portfolio .home-fab {
+    top: 47%;
+    left: 30px;
+}
+
+#contact .home-fab { 
+    top: 30px; 
+    left: 46%; 
+}
+
+#skills .home-fab:hover { 
+    transform: translateY(20%);
+}
+
+#contact .home-fab:hover { 
+    transform: translateY(-20%);
+}
+
+#profile .home-fab:hover {
+    transform: translateX(20%);
+}
+
+#portfolio .home-fab:hover {
+    transform: translateX(-20%);
+}
 
 @media (max-width: 700px) {
     #profile .home-fab, #portfolio .home-fab { top: 18px; }
