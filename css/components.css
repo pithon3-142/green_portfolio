@@ -106,7 +106,7 @@
     }
 
 .home-fab {
-    position: absolute;
+    position: fixed;
     z-index: 5;
     display: inline-flex;
     align-items: center;
@@ -142,23 +142,23 @@
 }
 
 #github-repos .home-fab {
-    bottom: 30px;
-    left: 47%;
+    top: 95vh;
+    left: 49%;
 }
 
 #profile .home-fab {
-    top: 47%;
-    right: 30px;
+    top: 49%;
+    left: 93vw;
 }
 
 #portfolio .home-fab {
-    top: 47%;
-    left: 30px;
+    top: 49%;
+    left: 207vw;
 }
 
 #contact .home-fab { 
-    top: 30px; 
-    left: 47%; 
+    top: 205vh; 
+    left: 49%; 
 }
 
 #github-repos .home-fab:hover { 
