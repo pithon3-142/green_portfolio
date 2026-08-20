@@ -1,6 +1,6 @@
 const xhtml = new XMLHttpRequest();
 
-xhtml.open("GET", "https://api.github.com/repositories", true);
+xhtml.open("GET", "https://api.github.com/users/pithon3-142/repos", true);
 
 xhtml.send();
 // populate table when response arrives
