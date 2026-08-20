@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Portfolio</title>
+    <!-- referring all the css files for styling -->
     <link rel="icon" href="assets/icons/favicon.jpg">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/home.css">
@@ -25,7 +26,7 @@
         <section id="home" class="viewport">
             <div class="home-container">
                 <!-- the navigation -->
-                <div class="up nav" data-page="skills">SKILLS</div>
+                <div class="up nav" data-page="repos">GITHUB REPOS</div>
                 <div class="left nav" data-page="profile">PROFILE</div>
                 <div class="right nav" data-page="portfolio">PORTFOLIO</div>
                 <div class="down nav" data-page="contact">CONTACT</div>
@@ -37,7 +38,7 @@
                         <p>I am</p><span>Peniel Ndlela </span><p>a.k.a </p><img src="assets/icons/favicon.jpg">
                     </div>
                     <div>
-                        <img src="assets/images/me2.png" alt="a picture of me">
+                        <img id="rasta-man" src="assets/images/me2.png" alt="a picture of me">
                     </div>
                     <p>Welcome to my <b>Green</b> Pifolio</p>
                 </div>
@@ -104,13 +105,37 @@
             </div>
         </section>
 
-        <!-- SKILLS PAGE -->
-        <section id="skills" class="viewport">
+        <!-- GITHUB PAGE -->
+        <section id="github-repos" class="viewport">
             <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>↓<span>Home</span></button>
-            <div class="skills">
-                <p>!!! WOOOOOOOOOOOPS !!!</p>
-                <p>This page is still under construction, please check back later</p>
-                <p>THANK YOU</p>
+            <div class="my-repos">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <button class="sort-button" type="button" data-sort="id">Repository <span>↕</span></button>
+                            </th>
+                            <th>
+                                <button class="sort-button" type="button" data-sort="project">Description <span>↕</span></button>
+                            </th>
+                            <th>
+                                <button class="sort-button" type="button" data-sort="technology">Programming Languages <span>↕</span></button>
+                            </th>
+                            <th>
+                                <button class="sort-button" type="button" data-sort="status">Visibility <span>↕</span></button>
+                            </th>
+                            <th>
+                                <button class="sort-button" type="button" data-sort="status">Date Created <span>↕</span></button>
+                            </th>
+                            <th>
+                                <button class="sort-button" type="button" data-sort="status">Last Updated <span>↕</span></button>
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="repo-data">
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -221,6 +246,7 @@
     <script src="js/animations.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/portfolio.js"></script>
+    <script src="js/github.js"></script>
     <script src="js/home-buttons.js"></script>
-</body>h 
+</body>
 </html>

@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\navigation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\portfolio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -74,8 +74,7 @@
               "RelativeToolTip": "css\\base.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-18T10:44:55.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T10:44:55.45Z"
             },
             {
               "$type": "Document",
@@ -87,12 +86,11 @@
               "RelativeToolTip": "css\\portfolio.css",
               "ViewState": "AgIAAGcAAAAAAAAAAAAswH8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-18T10:38:43.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T10:38:43.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "components.css",
               "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\components.css",
               "RelativeDocumentMoniker": "css\\components.css",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "js\\portfolio.js",
               "ViewState": "AgIAADQAAAAAAAAAAAAgwEIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-08-17T07:01:56.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T07:01:56.998Z"
             },
             {
               "$type": "Document",
@@ -138,8 +135,7 @@
               "RelativeToolTip": "css\\home.css",
               "ViewState": "AgIAAE0AAAAAAAAAAAAhwH0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-06T08:22:53.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T08:22:53.489Z"
             },
             {
               "$type": "Document",
@@ -191,14 +187,14 @@
               "RelativeDocumentMoniker": "js\\navigation.js",
               "ToolTip": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\js\\navigation.js",
               "RelativeToolTip": "js\\navigation.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-08-18T10:54:13.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "contact.css",
               "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\contact.css",
               "RelativeDocumentMoniker": "css\\contact.css",
@@ -206,12 +202,11 @@
               "RelativeToolTip": "css\\contact.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-18T10:39:55.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T10:39:55.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -219,8 +214,7 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAI8AAAAAAAAAAAAswKcAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-08-06T06:55:41.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T06:55:41.478Z"
             }
           ]
         }

@@ -95,7 +95,7 @@
     font-weight: bolder;
     font-size: 2rem;
     backdrop-filter: blur(20px);
-    transition: transform 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 
     .nav:hover {

@@ -1,8 +1,4 @@
-#portfolio {
-    width: 100vw;
-    min-height: 100vh;
-    overflow-y: auto;
-}
+
 
 .portfolio-page {
     width: min(1160px, 90%);

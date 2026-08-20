@@ -7,9 +7,6 @@ navItems.forEach((item) => {
         const page = item.dataset.page;
 
         switch (page) {
-            case "home":
-                canvas.style.transform = "translate(-100vw, -100vh)";
-                break;
             case "profile":
                 canvas.style.transform = "translate(0vw, -100vh)";
                 setTimeout(() => { alert("Scroll down for more content"); }, 3000);
@@ -18,7 +15,7 @@ navItems.forEach((item) => {
                 canvas.style.transform = "translate(-200vw, -100vh)";
                 setTimeout(() => { alert("Scroll down for more content"); }, 3000);
                 break;
-            case "skills":
+            case "repos":
                 canvas.style.transform = "translate(-100vw, 0vh)";
                 break;
             case "contact":

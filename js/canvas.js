@@ -4,4 +4,5 @@ $(function () {
     $("#portfolio").load("../sections/portfolio.html");
     $("#skills").load("../sections/skills.html");
     $("#contact").load("../sections/contact.html");
+    $("#repos").load("../sections/repos.html");
 });

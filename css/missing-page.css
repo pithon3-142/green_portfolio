@@ -1,18 +1,18 @@
-#skills {
-    with: 100vw;
+#missing-page {
+    width: 100vw;
     height: 100vh;
+    overflow-y: auto;
 }
 
-.skills {
+.missing-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     height: 100%
-
 }
 
-p {
+#missing-page p {
     font-size: xx-large;
 }
