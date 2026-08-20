@@ -9,11 +9,11 @@ navItems.forEach((item) => {
         switch (page) {
             case "profile":
                 canvas.style.transform = "translate(0vw, -100vh)";
-                setTimeout(() => { alert("Scroll down for more content"); }, 3000);
+                setTimeout(() => { alert("Scroll down for more content"); }, 2000);
                 break;
             case "portfolio":
                 canvas.style.transform = "translate(-200vw, -100vh)";
-                setTimeout(() => { alert("Scroll down for more content"); }, 3000);
+                setTimeout(() => { alert("Scroll down for more content"); }, 2000);
                 break;
             case "repos":
                 canvas.style.transform = "translate(-100vw, 0vh)";

@@ -38,3 +38,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+h1 {
+    text-shadow: 0 0 50px white;
+    font-size: 5rem;
+    text-align: center
+}

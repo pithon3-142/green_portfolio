@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/github-repos.css">
 </head>
 <body>
     <div id="canvas">
@@ -108,34 +108,27 @@
         <!-- GITHUB PAGE -->
         <section id="github-repos" class="viewport">
             <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>↓<span>Home</span></button>
+            <h1>Github Repositories</h1>
+            
             <div class="my-repos">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                <button class="sort-button" type="button" data-sort="id">Repository <span>↕</span></button>
-                            </th>
-                            <th>
-                                <button class="sort-button" type="button" data-sort="project">Description <span>↕</span></button>
-                            </th>
-                            <th>
-                                <button class="sort-button" type="button" data-sort="technology">Programming Languages <span>↕</span></button>
-                            </th>
-                            <th>
-                                <button class="sort-button" type="button" data-sort="status">Visibility <span>↕</span></button>
-                            </th>
-                            <th>
-                                <button class="sort-button" type="button" data-sort="status">Date Created <span>↕</span></button>
-                            </th>
-                            <th>
-                                <button class="sort-button" type="button" data-sort="status">Last Updated <span>↕</span></button>
-                            </th>
-                        </tr>
-                    </thead>
+                <p>My Github Repositories displayed with more details. This is a demo of AJAX data-table implementation</p>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Repository</th>
+                                <th>Description</th>
+                                <th>Programming Languages</th>
+                                <th>Visibility</th>
+                                <th>Date Created</th>
+                                <th>Last Updated</th>
+                            </tr>
+                        </thead>
 
-                    <tbody id="repo-data">
-                    </tbody>
-                </table>
+                        <tbody id="repo-data">
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
 

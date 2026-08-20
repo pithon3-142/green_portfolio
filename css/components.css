@@ -141,7 +141,7 @@
     font-size: 1.05rem !important;
 }
 
-#skills .home-fab {
+#github-repos .home-fab {
     bottom: 30px;
     left: 47%;
 }
@@ -161,7 +161,7 @@
     left: 47%; 
 }
 
-#skills .home-fab:hover { 
+#github-repos .home-fab:hover { 
     transform: translateY(20%);
 }
 

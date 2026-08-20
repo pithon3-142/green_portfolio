@@ -3,8 +3,57 @@
     height: 100vh;
 
     overflow-y: auto;
+
+    justify-content: center;
+    align-items: center;
+    padding: 20px
 }
 
 #github-repos p {
-    font-size: xx-large;
+    font-size: large;
+    text-align: center
+}
+
+.my-repos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px
+}
+
+.my_repos table {
+    width: 100%;
+    border: 2px solid rgba(0, 255, 33, 0.7);
+}
+.table-container {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden
+}
+
+.table-container thead{
+    background: rgba(0, 255, 33, 0.3);
+}
+
+.table-container thead th {
+    font-size: larger;
+    text-align: left;
+    vertical-align: top;
+}
+
+.my-repos th, .my-repos td {
+    padding: 10px 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.my-repos tbody tr {
+    transition: background-color 0.5 ease;
+}
+
+.my-repos tbody tr:hover {
+    background: rgba(0, 255, 33, 0.1)
 }
