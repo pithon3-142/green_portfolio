@@ -46,5 +46,28 @@ h1 {
 }
 
 p {
-    font-size: larger
+    font-size: 1rem
+}
+
+.data-section th,
+.data-section td {
+    padding: 15px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, .11);
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.data-section th {
+    color: rgba(255, 255, 255, .52);
+    font-size: 2rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.data-section tbody tr {
+    transition: background .2s;
+}
+
+.data-section tbody tr:hover {
+    background: rgba(255, 255, 255, .3);
 }

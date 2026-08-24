@@ -109,19 +109,18 @@
         <section id="github-repos" class="viewport">
             <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>↓<span>Home</span></button>
             <h1>Github Repositories</h1>
-            
-            <div class="my-repos">
-                <p>My Github Repositories displayed with more details. This is a demo of AJAX data-table implementation</p>
-                <div class="table-container">
+            <p>My Github Repositories displayed with more details. This is a demo of AJAX data-table implementation</p>
+            <div class="data-section glass center">     
+                <div class="table-wrapper">
                     <table>
                         <thead>
                             <tr>
                                 <th>Repository</th>
                                 <th>Description</th>
-                                <th>Programming Languages</th>
+                                <th>Languages</th>
                                 <th>Visibility</th>
-                                <th>Date Created</th>
-                                <th>Last Updated</th>
+                                <th>Created</th>
+                                <th>Updated</th>
                             </tr>
                         </thead>
 
@@ -129,6 +128,7 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="table-footer"></div>
             </div>
         </section>
 
@@ -176,36 +176,39 @@
                     </div>
                 </section>
 
-                <section class="data-section glass" aria-labelledby="data-title">
-                    <div class="data-header"><div><span class="eyebrow">Interactive technical demonstration</span><h2 id="data-title">Live project data</h2></div><span id="dataCount" class="data-count" aria-live="polite"></span></div>
-                    <div class="data-controls">
-                        <label class="search-field" for="projectSearch"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects" autocomplete="off"></label>
-                        <label class="filter-field" for="statusFilter">Status <select id="statusFilter"><option value="all">All</option><option value="Complete">Complete</option><option value="In progress">In progress</option></select></label>
-                    </div>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>
-                                        <button class="sort-button" type="button" data-sort="id">ID <span>↕</span></button>
-                                    </th>
-                                    <th>
-                                        <button class="sort-button" type="button" data-sort="project">Project <span>↕</span></button>
-                                    </th>
-                                    <th>
-                                        <button class="sort-button" type="button" data-sort="technology">Technology <span>↕</span></button>
-                                    </th>
-                                    <th>
-                                        <button class="sort-button" type="button" data-sort="status">Status <span>↕</span></button>
-                                    </th>
-                                </tr>
-                            </thead>
+                <section aria-labelledby="data-title">
+                    <div  class="data-section glass">
+                        <div class="data-header"><div><span class="eyebrow">Interactive technical demonstration</span><h2 id="data-title">Live project data</h2></div><span id="dataCount" class="data-count" aria-live="polite"></span></div>
+                        <div class="data-controls">
+                            <label class="search-field" for="projectSearch"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects" autocomplete="off"></label>
+                            <label class="filter-field" for="statusFilter">Status <select id="statusFilter"><option value="all">All</option><option value="Complete">Complete</option><option value="In progress">In progress</option></select></label>
+                        </div>
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <button class="sort-button" type="button" data-sort="id">ID <span>↕</span></button>
+                                        </th>
+                                        <th>
+                                            <button class="sort-button" type="button" data-sort="project">Project <span>↕</span></button>
+                                        </th>
+                                        <th>
+                                            <button class="sort-button" type="button" data-sort="technology">Technology <span>↕</span></button>
+                                        </th>
+                                        <th>
+                                            <button class="sort-button" type="button" data-sort="status">Status <span>↕</span></button>
+                                        </th>
+                                    </tr>
+                                </thead>
 
-                            <tbody id="projectData">
-                            </tbody>
-                        </table>
+                                <tbody id="projectData">
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <div class="table-footer"><p><span class="live-dot"></span>Loaded with fetch-style client-side data</p><div id="pagination" class="pagination" aria-label="Project data pages"></div></div>
+                    
+                    <div class="table-footer"><p><span class="live-dot"></span>Loaded with fetch-style client-side data</p><div id="pagination" class="pagination" aria-label="Project data pages"></div>
                 </section>
 
                 <section id="project-details" class="project-details glass" aria-labelledby="details-title">

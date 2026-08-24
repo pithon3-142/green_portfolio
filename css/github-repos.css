@@ -1,60 +1,20 @@
 #github-repos {
     width: 100vw;
     height: 100vh;
-
     overflow-y: auto;
-
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 20px
+    padding: 20px;
+    
+    gap: 150px;
+    alig
+}
+
+#github-repos .data-section {
+    width: 80%
 }
 
 #github-repos p {
-    font-size: x-large;
-    text-align: center
-}
-
-.my-repos {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 50px
-}
-
-.my_repos table {
-    width: 100%;
-    border: 2px solid rgba(0, 255, 33, 0.7);
-}
-.table-container {
-    width: 100%;
-    border-radius: 20px;
-    overflow: hidden
-}
-
-.table-container thead{
-    background: rgba(0, 255, 33, 0.3);
-}
-
-.table-container thead th {
-    font-size: x-large;
-    font-weight: 500;
-    text-align: left;
-    vertical-align: top;
-}
-
-.my-repos th, #repo-data td {
-    padding: 10px 30px;
-    font-family:Arial ;
-    font-size: large;
-    font-weight: 300;
-}
-
-.my-repos tbody tr {
-    transition: background-color 1s ease;
-}
-
-.my-repos tbody tr:hover {
-    background: rgba(0, 255, 33, 0.1)
+    font-size: 2rem
 }
