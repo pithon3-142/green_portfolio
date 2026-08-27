@@ -3,7 +3,7 @@
     --bg-primary: #0b0f17;
     --bg-secondary: #272829;
     /*glass background*/
-    --bg-glass: rgba(255, 255, 255, 0.1);
+    --bg-glass: rgba(150, 150, 150, 0.1);
     --border-glass: rgba(255, 255, 255, 0.8);
     /*glow colors*/
     --glow-primary: #5000a1;
@@ -43,14 +43,15 @@
 .glass {
     background: var(--bg-glass);
     border: 2px solid var(--border-glass);
-    backdrop-filter: blur(70px);
-    -webkit-backdrop-filter: blur(70px);
+    backdrop-filter: blur(500px);
+    -webkit-backdrop-filter: blur(500px);
     border-radius: 20px;
 }
 
 .glass:hover {
     backdrop-filter: blur(100px);
     background: rgba(0, 0, 0, 0.8);
+    border-color: white;
 }
 
 .glow {
@@ -91,18 +92,36 @@
 
 .nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bolder;
     font-size: 2rem;
     backdrop-filter: blur(20px);
     transition: all 2s ease-in-out;
 }
 
-    .nav:hover {
-        transform: scale(1.1);
-        transition: var(--transition);
-        text-shadow: 0 0 20px white;
-        cursor: pointer;
-    }
+.nav:hover {
+   transform: scale(1.1);
+   transition: var(--transition);
+   text-shadow: 0 0 20px white;
+   cursor: pointer;
+}
+.nav:hover #up-arrow {
+    transform: rotate(-90deg) translateX(20px)
+}
+.nav:hover #down-arrow {
+    transform: rotate(90deg) translateX(20px)
+}
+.nav:hover #left-arrow {
+    transform: rotate(180deg) translateX(20px)
+}
+.nav:hover #right-arrow {
+    transform: rotate(0deg) translateX(20px)
+}
+
+.nav-arrow {
+    width: 30px;
+    height: 30px;
+    background: white;
+    clip-path: polygon( 0 0, 100% 50%, 0 100%, 25% 50% );
+}
 
 .home-fab {
     position: fixed;

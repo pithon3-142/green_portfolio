@@ -1,3 +1,4 @@
+/*
 const xhtml = new XMLHttpRequest();
 
 xhtml.open("GET", "https://api.github.com/users/pithon3-142/repos", true);
@@ -35,3 +36,28 @@ xhtml.onreadystatechange = function () {
         console.error('GitHub API request failed', xhtml.status, xhtml.statusText);
     }
 };
+*/
+
+$(document).ready(function () {
+
+    $('#git-repo-table').DataTable({
+        ajax: {
+            url: 'https://api.github.com/repositories',
+            dataSrc: ''
+        },
+        error: function (xhr, error, thrown) {
+            console.log("Status:", xhr.status);
+            console.log("Error:", error);
+            console.log("Thrown:", thrown);
+            console.log("Response:", xhr.responseText);
+        },
+        columns: [
+            {data: 'name'},
+            {data: 'description'},
+            {data: 'languages_url'},
+            {data: 'visibility'},
+            {data: 'created_at'},
+            {data: 'updated_at'}
+        ]
+    })
+});

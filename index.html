@@ -6,6 +6,9 @@
     <title>Green Portfolio</title>
     <!-- referring all the css files for styling -->
     <link rel="icon" href="assets/icons/favicon.jpg">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.min.css">
+
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -26,10 +29,22 @@
         <section id="home" class="viewport">
             <div class="home-container">
                 <!-- the navigation -->
-                <div class="up nav" data-page="repos">GITHUB REPOS</div>
-                <div class="left nav" data-page="profile">PROFILE</div>
-                <div class="right nav" data-page="portfolio">PORTFOLIO</div>
-                <div class="down nav" data-page="contact">CONTACT</div>
+                <div class="up nav" data-page="repos">
+                    <span id="up-arrow" class="nav-arrow"></span>
+                    GITHUB REPOS
+                </div>
+                <div class="left nav" data-page="profile">
+                    <span id="left-arrow" class="nav-arrow"></span>
+                    PROFILE
+                </div>
+                <div class="right nav" data-page="portfolio">
+                    PORTFOLIO
+                    <span id="right-arrow" class="nav-arrow"></span>
+                </div>
+                <div class="down nav" data-page="contact">
+                    <span id="down-arrow" class="nav-arrow"></span>
+                    CONTACT
+                </div>
 
                 <!-- Home page content-->
                 <div class="home-center center glass">
@@ -110,9 +125,9 @@
             <button class="home-fab" type="button" aria-label="Return to home"><span class="home-fab-icon" aria-hidden="true"></span>↓<span>Home</span></button>
             <h1>Github Repositories</h1>
             <p>My Github Repositories displayed with more details. This is a demo of AJAX data-table implementation</p>
-            <div class="data-section glass center">     
+            <div class="data-section glass center">
                 <div class="table-wrapper">
-                    <table>
+                    <table id="git-repo-table">
                         <thead>
                             <tr>
                                 <th>Repository</th>
@@ -177,7 +192,7 @@
                 </section>
 
                 <section aria-labelledby="data-title">
-                    <div  class="data-section glass">
+                    <div class="data-section glass">
                         <div class="data-header"><div><span class="eyebrow">Interactive technical demonstration</span><h2 id="data-title">Live project data</h2></div><span id="dataCount" class="data-count" aria-live="polite"></span></div>
                         <div class="data-controls">
                             <label class="search-field" for="projectSearch"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects" autocomplete="off"></label>
@@ -207,7 +222,7 @@
                             </table>
                         </div>
                     </div>
-                    
+
                     <div class="table-footer"><p><span class="live-dot"></span>Loaded with fetch-style client-side data</p><div id="pagination" class="pagination" aria-label="Project data pages"></div>
                 </section>
 
@@ -239,6 +254,8 @@
 
     <!-- sourcing the javascript files -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.3/js/dataTables.min.js"></script>
+
     <script src="js/animations.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/portfolio.js"></script>

@@ -49,6 +49,22 @@
     align-items: center
 }
 
+#up-arrow {
+    transform: rotate(-90deg)
+}
+
+#down-arrow {
+    transform: rotate(90deg)
+}
+
+#left-arrow {
+    transform: rotate(180deg)
+}
+
+#right-arrow {
+    transform: rotate(0deg)
+}
+
 .right {
     grid-area: right;
     display: flex;
@@ -69,7 +85,7 @@
     flex-direction: column;
     text-align: center;
     gap: 1.5rem;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 span {
@@ -87,7 +103,7 @@ span {
 }
 
 #home .home-center {
-    border-radius: 700px;
+    border-radius: 100px;
     box-shadow: 0 0 50px 20px rgba(233, 230, 230, 0.952);
     transition: all 1s ease-in-out;
 }

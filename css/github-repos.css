@@ -8,7 +8,6 @@
     padding: 20px;
     
     gap: 150px;
-    alig
 }
 
 #github-repos .data-section {
@@ -17,4 +16,13 @@
 
 #github-repos p {
     font-size: 2rem
+}
+
+#git-repo-table {
+    font-size: clamp(0.7rem, 0.8vw, 0.9rem);
+}
+
+#git-repo-table td {
+    white-space: normal;
+    overflow-wrap: anywhere;
 }
