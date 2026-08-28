@@ -42,7 +42,7 @@ $(document).ready(function () {
 
     $('#git-repo-table').DataTable({
         ajax: {
-            url: 'https://api.github.com/repositories',
+            url: 'https://api.github.com/users/sindresorhus/repos',
             dataSrc: ''
         },
         error: function (xhr, error, thrown) {
