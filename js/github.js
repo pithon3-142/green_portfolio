@@ -45,12 +45,7 @@ $(document).ready(function () {
             url: 'https://api.github.com/users/sindresorhus/repos',
             dataSrc: ''
         },
-        error: function (xhr, error, thrown) {
-            console.log("Status:", xhr.status);
-            console.log("Error:", error);
-            console.log("Thrown:", thrown);
-            console.log("Response:", xhr.responseText);
-        },
+        
         columns: [
             {data: 'name'},
             {data: 'description'},
@@ -61,3 +56,8 @@ $(document).ready(function () {
         ]
     })
 });
+
+$('.dt-length select')
+$('.dt-search input')
+$('.dt-paging button')
+$('.dt-info')

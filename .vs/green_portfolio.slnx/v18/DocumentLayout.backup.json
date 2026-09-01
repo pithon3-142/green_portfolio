@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\github.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,44 +35,25 @@
           ]
         },
         {
-          "DockedWidth": 174,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "base.css",
-              "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\base.css",
-              "RelativeDocumentMoniker": "css\\base.css",
-              "ToolTip": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\base.css",
-              "RelativeToolTip": "css\\base.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-24T13:32:30.834Z",
+              "DocumentIndex": 0,
+              "Title": "github.js",
+              "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\js\\github.js",
+              "RelativeDocumentMoniker": "js\\github.js",
+              "ToolTip": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\js\\github.js",
+              "RelativeToolTip": "js\\github.js",
+              "ViewState": "AgIAABYAAAAAAAAAAAAhwCkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-27T07:15:44.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "components.css",
-              "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\components.css",
-              "RelativeDocumentMoniker": "css\\components.css",
-              "ToolTip": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\components.css",
-              "RelativeToolTip": "css\\components.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-24T13:58:24.367Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "home.css",
               "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\home.css",
               "RelativeDocumentMoniker": "css\\home.css",
@@ -93,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "github-repos.css",
               "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\css\\github-repos.css",
               "RelativeDocumentMoniker": "css\\github-repos.css",
@@ -102,19 +75,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-08-24T13:31:49.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "github.js",
-              "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\js\\github.js",
-              "RelativeDocumentMoniker": "js\\github.js",
-              "ToolTip": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\js\\github.js",
-              "RelativeToolTip": "js\\github.js",
-              "ViewState": "AgIAABYAAAAAAAAAAAAhwDEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-08-27T07:15:44.419Z",
               "EditorCaption": ""
             }
           ]
@@ -125,13 +85,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Peniel.Ndlela\\source\\repos\\pithon3-142\\green_portfolio\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAG0AAAAAZmZmZqYowIEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAmJmZmZkOwHQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-08-06T06:55:41.478Z",
               "EditorCaption": ""

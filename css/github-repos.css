@@ -18,11 +18,57 @@
     font-size: 2rem
 }
 
-#git-repo-table {
-    font-size: clamp(0.7rem, 0.8vw, 0.9rem);
+#git-repo-table th, #git-repo-table td {
+    padding: 8px 20px;
+    font-size: clamp(0.7rem, 1.3rem, 1.6rem);
+    text-align: left;
+    font-family: sans-serif
 }
 
 #git-repo-table td {
     white-space: normal;
     overflow-wrap: anywhere;
+}
+
+div.dt-container select.dt-input {
+    border: green;
+    color: white;
+    border-radius: 8px;
+    background: rgba(0, 188, 0, 0.8);
+    padding: 8px 12px;
+}
+
+div.dt-container .dt-search input {
+    border-radius: 8px;
+    border: 3px solid green;
+    background: rgba(0, 188, 100, 0.2);
+    padding: 4px 12px;
+    margin-left: 6px;
+}
+
+label {
+    font-size: 1.5rem
+}
+
+span.dt-column-order {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.dt-column-order::before {
+    margin-bottom: 5px;
+    color: white
+}
+
+.dt-column-order::after {
+    margin-top: 5px;
+}
+
+span.dt-column-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.dt-paging button {
+    border-radius: 8px;
 }
