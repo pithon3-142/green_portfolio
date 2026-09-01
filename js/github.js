@@ -51,8 +51,16 @@ $(document).ready(function () {
             {data: 'description'},
             {data: 'languages_url'},
             {data: 'visibility'},
-            {data: 'created_at'},
-            {data: 'updated_at'}
+            {data: 'created_at',
+                render: function (data) {
+                    return new Date(data).toLocaleDateString();
+                }
+            },
+            {data: 'updated_at',
+                render: function (data) {
+                    return new Date(data).toLocaleDateString();
+                }
+            }
         ]
     })
 });
